@@ -1,0 +1,108 @@
+$black: #000;
+$white: #fff;
+$primary-color: #ff5722;
+$accent-color: #4caf50;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $black;
+  color: $white;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  background-color: $primary-color;
+  color: $white;
+}
+
+.svg-container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav div > div {
+  margin: 0 1rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.details {
+  background-color: $primary-color;
+  color: $white;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.place-box {
+  background-color: $accent-color;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark, .discover {
+  background-color: $accent-color;
+  color: $white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.progress-sub-background {
+  background-color: $white;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
+}
+
+.progress-sub-foreground {
+  background-color: $accent-color;
+  height: 4px;
+  width: 50%;
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
