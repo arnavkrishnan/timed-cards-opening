@@ -1,12 +1,12 @@
 // Mock data for demonstration
 const data = [
     {
-        image: "path/to/image1.jpg",
+        image: "https://www.w3schools.com/w3images/mountains.jpg",
         title: "Saint Antonien",
         description: "Tucked away in the Switzerland Alps, Saint Antönien offers an idyllic retreat for those seeking tranquility and adventure alike. It's a hidden gem for backcountry skiing in winter and boasts lush trails for hiking and mountain biking during the warmer months."
     },
     {
-        image: "path/to/image2.jpg",
+        image: "https://www.w3schools.com/w3images/lights.jpg",
         title: "Another Place",
         description: "Description for another place."
     }
